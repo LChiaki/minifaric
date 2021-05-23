@@ -1,0 +1,21 @@
+
+Welcome to Gradle 7.0.2!
+
+Here are the highlights of this release:
+ - File system watching enabled by default
+ - Support for running with and building Java 16 projects
+ - Native support for Apple Silicon processors
+ - Dependency catalog feature preview
+
+For more details see https://docs.gradle.org/7.0.2/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :run
+10:08:41.966 [main] ERROR Sample - start project wuhu~~~~
+
+BUILD SUCCESSFUL in 1m 26s
+2 actionable tasks: 2 executed
